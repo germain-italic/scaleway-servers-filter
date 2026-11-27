@@ -9,6 +9,10 @@ Ajoute un panneau en haut à droite avec deux filtres :
 
 Choix mémorisés dans le `localStorage` de la page. Gammes vides masquées.
 
+![Panneau de filtres](screenshots/panneau.png)
+
+![Page de commande filtrée](screenshots/page-filtree.png)
+
 ## Installation
 
 1. Cloner le dépôt.

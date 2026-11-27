@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Scaleway Servers Filter",
+  "version": "1.0.0",
+  "description": "Filtre la page de commande Dedibox (console.online.net) : disques SSD/NVMe et serveurs en stock.",
+  "content_scripts": [
+    {
+      "matches": ["https://console.online.net/*/order/server*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
